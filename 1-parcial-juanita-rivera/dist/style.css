@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  background: #f9f5ec url("https://www.transparenttextures.com/patterns/parchment.png");
+  font-family: 'Benne', serif;
+  color: #2c2c2c;
+  line-height: 1.7;
+}
+
+.portada {
+  min-height: 100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding: 2rem;
+}
+.portada-inner {
+  text-align:center;
+  padding: 2.5rem;
+  border: 6px double #b59f7a;
+  background: rgba(255,255,255,0.7);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.22);
+}
+.titulo-grimorio {
+  font-family: 'Harry P', cursive;
+  font-size: 3.6rem;
+  color: #3a2618;
+  margin: 0 0 0.4rem 0;
+  text-shadow: 0 3px 8px rgba(0,0,0,0.25), 0 0 14px #d4af37;
+}
+.subtitulo-grimorio {
+  font-family: 'MedievalSharp', cursive;
+  font-size: 1.3rem;
+  color: #5c3b1e;
+}
+.autor { margin: 1rem 0; }
+.comenzar-btn {
+  background: #4b2e83;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'MedievalSharp', cursive;
+}
+#portada.fade-out { opacity:0; transform: scale(.98); transition: .4s; }
+
+.pagina {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background: rgba(255,255,255,0.8);
+  border: 2px solid #b59f7a;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+.titulo-principal {
+  font-family: 'Harry P', cursive;
+  text-align:center;
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
+}
+.subtitulo {
+  font-family: 'MedievalSharp', cursive;
+  font-size: 2rem;
+  margin: 1.5rem 0 1rem 0;
+  color: #4b2e83;
+}
+
+.hechizo-btn, .apendice-btn {
+  background: #4b2e83;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 1rem 0;
+}
+.hechizo, .apendice {
+  display: none;
+  background: #eae6f8;
+  border-left: 4px solid #4b2e83;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  font-family: monospace;
+  white-space: pre-wrap;
+}
+
+.contraportada {
+  text-align:center;
+  padding: 4rem 2rem;
+  background: rgba(0,0,0,0.05);
+}
+.fin {
+  font-family: 'Harry P', cursive;
+  font-size: 2rem;
+  color: #3a2618;
+}
